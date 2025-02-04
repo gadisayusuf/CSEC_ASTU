@@ -1,0 +1,5 @@
+t = int(input())
+lst = list(map(int, input().split()))
+m = lst.count(0)
+n = set(lst)
+print(len(n) - (1 if m > 0 else 0))
